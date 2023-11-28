@@ -3,8 +3,9 @@
 function renderLicenseBadge(license) {
   if (license === 'None') {
     return '';
+  } else {
+    return `[![License](https://img.shields.io/badge/license-${license}-blue.svg)](${renderLicenseLink(license)})`;
   }
-  return `[![License](https://img.shields.io/badge/license-${license}-blue.svg)](https://opensource.org/licenses/${license})`;
 }
 
 // Function that returns the license link
@@ -12,8 +13,9 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   if (license === 'None') {
     return '';
+  } else {
+    return `https://opensource.org/licenses/${license}`;
   }
-  return `[License](https://opensource.org/licenses/${license})`;
 }
 
 // Function that returns the license section of README
@@ -21,8 +23,9 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   if (license === 'None') {
     return '';
+  } else {
+    return `This application is covered by the [${license}](${renderLicenseLink(license)}) license.`;
   }
-  return `This application is covered by the [${license}](https://opensource.org/licenses/${license}) license.`;
 }
 
 // Function to generate markdown for README
