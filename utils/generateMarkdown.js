@@ -4,7 +4,9 @@ function renderLicenseBadge(license) {
   if (license === 'None') {
     return '';
   } else {
-    return `[![License](https://img.shields.io/badge/license-${license}-blue.svg)](${renderLicenseLink(license)})`;
+    const formattedLicense = license.split(' ').join('%20');
+
+    return `[![License](https://img.shields.io/badge/License-${formattedLicense}-blue.svg)](${renderLicenseLink(license)})`;
   }
 }
 
@@ -14,7 +16,9 @@ function renderLicenseLink(license) {
   if (license === 'None') {
     return '';
   } else {
-    return `https://opensource.org/licenses/${license}`;
+    const formattedLicense = license.split(' ').join('-');
+
+    return `https://opensource.org/licenses/${formattedLicense}`;
   }
 }
 
@@ -30,8 +34,7 @@ function renderLicenseSection(license) {
 
 // Function to generate markdown for README
 function generateMarkdown(data) {
-  return `
-# ${data.title}
+  return `# ${data.title}
 
 ${renderLicenseBadge(data.license)}
 
@@ -62,8 +65,7 @@ ${data.contributing}
 ${data.tests}
 
 ## Questions
-If you have any questions, please contact [${data.githubUsername}](https://github.com/${data.githubUsername}) or email at ${data.email}.
-  `;
+If you have any questions, please contact [${data.githubUsername}](https://github.com/${data.githubUsername}) or email at ${data.email}.`;
 }
 
 module.exports = generateMarkdown;
