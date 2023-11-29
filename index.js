@@ -1,7 +1,7 @@
 // Include packages needed for this application
-const inquirer = require('inquirer');
-const fs = require('fs');
-const generateMarkdown = require('./utils/generateMarkdown');
+const inquirer = require('inquirer'); // Inquirer is a package for interactive command-line user interfaces
+const fs = require('fs'); // fs is the file system module for reading and writing files
+const generateMarkdown = require('./utils/generateMarkdown'); // Import module for generating markdown
 
 // Array of questions for user input
 const questions = [
@@ -55,10 +55,13 @@ const questions = [
 
 // Function to write README file
 function writeToFile(fileName, data) {
+  // Use fs.writeFile to write data to a file
   fs.writeFile(fileName, data, (err) => {
     if (err) {
+      // If an error occurs during file writing, log the error to the console
       console.error(err);
     } else {
+      // If the file is successfully written, log a success message to the console
       console.log(`${fileName} has been successfully generated!`);
     }
   });
@@ -66,13 +69,17 @@ function writeToFile(fileName, data) {
 
 // Function to initialize app
 function init() {
+  // Prompt the user for information using the 'inquirer' module
   inquirer.prompt(questions)
     .then((data) => {
+      // Generate README content using the answers provided by the user
       const readmeContent = generateMarkdown(data);
 
+      // Write README file using the generated content
       writeToFile('README.md', readmeContent);
     })
     .catch((error) => {
+      // Log any errors during the inquirer prompt process to the console
       console.error(error);
     });
 }
