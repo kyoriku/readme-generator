@@ -76,5 +76,5 @@ ${data.tests}
 If you have any questions, please contact [${data.githubUsername}](https://github.com/${data.githubUsername}) or email at ${data.email}.`;
 }
 
-// Export the generateMarkdown function for use in other files
+// Export generateMarkdown.js for use in other files
 module.exports = generateMarkdown;
