@@ -58,6 +58,8 @@ To use the README Generator, follow these steps:
 
 https://github.com/kyoriku/readme-generator/assets/145511725/8bf09b71-0ecc-409f-957b-c6326f4964af
 
+[Link to demo video](https://drive.google.com/file/d/1NNMy_CNtfVe0ny3bkDut3tGq-ukWLq4C/view?usp=sharing)
+
 ### Screenshots
 ![Screenshot1](assets/images/readme-generator-1.png)
 ![Screenshot2](assets/images/readme-generator-2.png)
