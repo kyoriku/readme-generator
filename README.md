@@ -8,9 +8,9 @@ The README Generator is a command-line application that dynamically generates a 
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
+- [License](#license)
 - [Contributing](#contributing)
 - [Tests](#tests)
-- [License](#license)
 - [Questions](#questions)
 
 ## Installation
@@ -52,7 +52,10 @@ To use the README Generator, follow these steps:
     node index.js
     ```
 3. Answer the prompts to provide information about your project, including the title, description, installation process, usage instructions, contribution guidelines, test instructions, license, GitHub username, and email address.
-4. Once you've answered all the prompts, the README.md file will be generated in the root of your project.  
+4. Once you've answered all the prompts, the README.md file will be generated in the root of your project.
+
+## License
+This application is covered by the [MIT](https://opensource.org/licenses/MIT) license.
 
 ## Contributing
 If you want to contribute to this project, follow these steps:
@@ -68,9 +71,6 @@ To run tests for the README Generator, use the following command:
 ```bash
 npm test
 ```
-
-## License
-This application is covered by the [MIT](https://opensource.org/licenses/MIT) license.
 
 ## Questions
 If you have any questions, please contact [kyoriku](https://github.com/kyoriku) or email at devkyoriku@gmail.com.
