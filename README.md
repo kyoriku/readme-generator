@@ -5,7 +5,7 @@
 ## Description
 The README Generator is a command-line application that dynamically generates a professional README.md file for your GitHub project. This application is built using the [Inquirer](https://www.npmjs.com/package/inquirer/v/8.2.4) package to prompt users for information about their application. It follows the guidelines outlined in the [Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide), ensuring that your README includes essential sections such as Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions.
 
-## Table of Contents
+## Table of Contents 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
