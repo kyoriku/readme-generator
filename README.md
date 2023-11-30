@@ -23,8 +23,11 @@ Check if you have Node.js installed by following these steps:
 2. Run the following command:
     ```bash
     node -v
-    ``` 
-    If Node.js is installed, you will see a version number, for example: `v20.10.0`
+    ```
+    
+https://github.com/kyoriku/readme-generator/assets/145511725/7ca8e828-e456-499f-8859-d2b825c15612
+
+If Node.js is installed, you will see a version number, for example: `v20.10.0`
 
 ### Install Node.js (if not already installed)
 If you don't have Node.js installed, follow these steps:
@@ -41,6 +44,9 @@ Once Node.js is installed, you can proceed with the installation of the README G
     ```bash
     npm install
     ```
+
+https://github.com/kyoriku/readme-generator/assets/145511725/4b549bd4-e096-4d91-b382-cb86aa4e5ea7
+
 Now you're ready to use the README Generator!
 
 ## Usage
