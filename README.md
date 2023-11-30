@@ -5,7 +5,7 @@
 ## Description
 The README Generator is a command-line application that dynamically generates a professional README.md file for your GitHub project. This application is built using the [Inquirer](https://www.npmjs.com/package/inquirer/v/8.2.4) package to prompt users for information about their application. It follows the guidelines outlined in the [Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide), ensuring that your README includes essential sections such as Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions.
 
-## Table of Contents 
+## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -24,7 +24,7 @@ Check if you have Node.js installed by following these steps:
     ```bash
     node -v
     ``` 
-    If Node.js is installed, you will see a version number, for example: ` v20.10.0 `
+    If Node.js is installed, you will see a version number, for example: `v20.10.0`
 
 ### Install Node.js (if not already installed)
 If you don't have Node.js installed, follow these steps:
@@ -43,7 +43,7 @@ Once Node.js is installed, you can proceed with the installation of the README G
     ```
 Now you're ready to use the README Generator!
 
- ## Usage
+## Usage
 To use the README Generator, follow these steps:
 
 1. Open your terminal and navigate to the project directory.
