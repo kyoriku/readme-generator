@@ -43,7 +43,7 @@ Once Node.js is installed, you can proceed with the installation of the README G
     ```
 Now you're ready to use the README Generator!
 
- ## Usage
+## Usage
 To use the README Generator, follow these steps:
 
 1. Open your terminal and navigate to the project directory.
@@ -57,6 +57,10 @@ To use the README Generator, follow these steps:
 ### Demo Video 
 
 https://github.com/kyoriku/readme-generator/assets/145511725/8bf09b71-0ecc-409f-957b-c6326f4964af
+
+### Screenshots
+![Screenshot1](assets/images/readme-generator-1.png)
+![Screenshot2](assets/images/readme-generator-2.png)
 
 ## License
 This application is covered by the [MIT](https://opensource.org/licenses/MIT) license.
